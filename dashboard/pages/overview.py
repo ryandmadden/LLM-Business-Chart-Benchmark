@@ -26,11 +26,6 @@ def show_overview_page():
         st.error("No evaluation results found. Please run the evaluation first.")
         st.info("Run: `python scripts/run_evaluation.py`")
         return
-
-    # Show data source info
-    total_evaluations = len(df)
-    unique_charts = df['chart_id'].nunique() if 'chart_id' in df.columns else 'N/A'
-    st.success(f"✅ Loaded {total_evaluations} evaluation results from {unique_charts} charts")
     
     # Summary statistics
     st.subheader("Summary Statistics")

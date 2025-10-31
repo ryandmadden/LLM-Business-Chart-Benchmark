@@ -94,6 +94,9 @@ python scripts/run_evaluation.py
 
 ### 5. Launch Dashboard
 
+**Live Demo:** https://llm-business-chart-benchmark.streamlit.app/
+
+Or run locally:
 ```bash
 streamlit run dashboard/app.py
 ```
@@ -133,6 +136,7 @@ graph LR
 - **Additional Models**: Expand evaluation to include:
   - Closed-source: GPT-5 Mini, Claude Opus 4.1
   - Open-source: Qwen family, DeepSeek, Llama family
+- **Code Cleanup**: Remove temporary test files and consolidate utility scripts
 
 ### Potential Scaling
 - Add domain-specific charts (healthcare, finance, manufacturing)
@@ -194,6 +198,22 @@ graph LR
 - **Plotly**: Dashboard visualizations
 - **boto3**: AWS S3 integration
 - **OpenAI, AWS Bedrock (Claude), Google Cloud**: Model APIs
+
+## Common Issues
+
+### Streamlit not showing latest results
+- Click the "🔄 Refresh Data" button in the sidebar
+- Or manually clear cache with `st.cache_data.clear()`
+
+### Models fail on specific chart types
+- Check if labels are clearly visible
+- Ensure questions match the actual data
+- Review tolerance values for numeric answers
+
+### Budget exceeded
+- Reduce number of charts
+- Use cheaper models for initial testing
+- Adjust `MAX_COST_PER_MODEL` in `src/config.py`
 
 ## Project Structure
 
