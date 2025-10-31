@@ -83,9 +83,6 @@ def load_evaluation_results() -> Optional[pd.DataFrame]:
             filepath = os.path.join(results_dir, latest_file)
             df = pd.read_parquet(filepath)
             
-            # Show which file was loaded
-            st.info(f"📁 Loaded: {latest_file}")
-            
             # Parse error_flags JSON strings back to dicts
             if 'error_flags' in df.columns:
                 df['error_flags'] = df['error_flags'].apply(parse_error_flags_json)
