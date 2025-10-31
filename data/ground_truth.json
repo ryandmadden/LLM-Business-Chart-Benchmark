@@ -1,0 +1,3634 @@
+{
+  "chart_001": {
+    "chart_type": "line",
+    "category": "business",
+    "difficulty": "easy",
+    "data_points": {
+      "Q1": 125000,
+      "Q2": 148000,
+      "Q3": 167000,
+      "Q4": 192000
+    },
+    "all_valid_numbers": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      100.0,
+      125.0,
+      148.0,
+      167.0,
+      192.0,
+      1000.0,
+      2024.0,
+      125000.0,
+      148000.0,
+      167000.0,
+      192000.0
+    ],
+    "key_facts": {
+      "max_value": 192000,
+      "max_period": "Q4",
+      "trend": "increasing",
+      "growth_rate": 53.6
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the revenue in Q3? Answer in exact dollars.",
+          "answer": 167000,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which quarter had the highest revenue?",
+          "answer": "Q4",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Describe the overall revenue trend.",
+          "answer": "increasing",
+          "type": "trend",
+          "keywords": [
+            "increase",
+            "growth",
+            "upward"
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "What is the approximate growth rate from Q1 to Q4? Answer in percent.",
+          "answer": 53.6,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "Which quarter had the highest growth rate compared to its previous quarter?",
+          "answer": "Q2",
+          "type": "categorical"
+        }
+      ]
+    }
+  },
+  "chart_002": {
+    "chart_type": "bar",
+    "category": "business",
+    "difficulty": "easy",
+    "data_points": {
+      "Jan": 85,
+      "Feb": 92,
+      "Mar": 78,
+      "Apr": 95,
+      "May": 88,
+      "Jun": 91
+    },
+    "key_facts": {
+      "max_value": 95,
+      "max_period": "Apr",
+      "min_value": 78,
+      "min_period": "Mar",
+      "average": 88.2
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the KPI score for March? Answer in exact score.",
+          "answer": 78,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which month had the highest KPI score?",
+          "answer": "Apr",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the average KPI score across all months? Answer in exact score.",
+          "answer": 88.2,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Which month had the lowest performance?",
+          "answer": "Mar",
+          "type": "categorical"
+        },
+        {
+          "id": "q5",
+          "text": "Between April and June, which month shows the steepest decline compared to its previous month?",
+          "answer": "May",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      70.0,
+      78.0,
+      85.0,
+      88.0,
+      91.0,
+      92.0,
+      95.0,
+      100.0
+    ]
+  },
+  "chart_003": {
+    "chart_type": "funnel",
+    "category": "business",
+    "difficulty": "medium",
+    "data_points": {
+      "Visitors": 10000,
+      "Leads": 2500,
+      "Trials": 800,
+      "Customers": 320
+    },
+    "key_facts": {
+      "total_visitors": 10000,
+      "conversion_rate": 3.2,
+      "lead_rate": 25.0,
+      "trial_rate": 32.0
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "How many visitors entered the funnel? Answer in exact count.",
+          "answer": 10000,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "How many customers were converted? Answer in exact count.",
+          "answer": 320,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the overall conversion rate from visitors to customers? Answer in percent.",
+          "answer": 3.2,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Which stage has the highest drop-off?",
+          "answer": "Visitors to Leads",
+          "type": "categorical"
+        },
+        {
+          "id": "q5",
+          "text": "What percent of visitors become trials? Answer in percent.",
+          "answer": 8.0,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.0,
+      1.0,
+      2.5,
+      4.0,
+      10.0,
+      320.0,
+      800.0,
+      2500.0,
+      10000.0
+    ]
+  },
+  "chart_004": {
+    "chart_type": "bar",
+    "category": "business",
+    "difficulty": "easy",
+    "data_points": {
+      "North": 45000,
+      "South": 38000,
+      "East": 52000,
+      "West": 41000,
+      "Central": 35000
+    },
+    "key_facts": {
+      "max_value": 52000,
+      "max_region": "East",
+      "min_value": 35000,
+      "min_region": "Central",
+      "total_sales": 211000
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the sales amount for the East region? Answer in exact dollars.",
+          "answer": 52000,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which region has the highest sales?",
+          "answer": "East",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the total sales across all regions? Answer in exact dollars.",
+          "answer": 211000,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Which region has the lowest sales?",
+          "answer": "Central",
+          "type": "categorical"
+        },
+        {
+          "id": "q5",
+          "text": "Which region shows the largest drop relative to the best-performing region?",
+          "answer": "Central",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      35.0,
+      38.0,
+      41.0,
+      45.0,
+      52.0,
+      35000.0,
+      38000.0,
+      41000.0,
+      45000.0,
+      52000.0
+    ]
+  },
+  "chart_005": {
+    "chart_type": "line",
+    "category": "tech",
+    "difficulty": "medium",
+    "data_points": {
+      "Jan": 1200,
+      "Feb": 1350,
+      "Mar": 1520,
+      "Apr": 1680,
+      "May": 1850,
+      "Jun": 2100,
+      "Jul": 2350,
+      "Aug": 2600,
+      "Sep": 2850,
+      "Oct": 3100,
+      "Nov": 3400,
+      "Dec": 3750
+    },
+    "key_facts": {
+      "start_users": 1200,
+      "end_users": 3750,
+      "growth_rate": 212.5,
+      "max_monthly_growth": 350
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "How many users were there in June? Answer in exact count.",
+          "answer": 2100,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "What was the user count at the end of the year? Answer in exact count.",
+          "answer": 3750,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the overall growth rate from January to December? Answer in percent.",
+          "answer": 212.5,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Describe the user growth trend.",
+          "answer": "increasing",
+          "type": "trend",
+          "keywords": [
+            "increase",
+            "growth",
+            "upward",
+            "rising"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Which month had the highest absolute month-over-month growth (most new users)?",
+          "answer": "Dec",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      1.0,
+      1.2,
+      1.35,
+      1.52,
+      1.68,
+      1.85,
+      2.0,
+      2.1,
+      2.35,
+      2.6,
+      2.85,
+      3.0,
+      3.1,
+      3.4,
+      3.75,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      1200.0,
+      1350.0,
+      1520.0,
+      1680.0,
+      1850.0,
+      2100.0,
+      2350.0,
+      2600.0,
+      2850.0,
+      3100.0,
+      3400.0,
+      3750.0
+    ]
+  },
+  "chart_006": {
+    "chart_type": "bar",
+    "category": "tech",
+    "difficulty": "medium",
+    "data_points": {
+      "Control": 12.5,
+      "Variant A": 15.2,
+      "Variant B": 18.7
+    },
+    "key_facts": {
+      "control_rate": 12.5,
+      "best_variant": "Variant B",
+      "best_rate": 18.7,
+      "improvement": 6.2
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the conversion rate for the control group? Answer in percent.",
+          "answer": 12.5,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which variant has the highest conversion rate?",
+          "answer": "Variant B",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the improvement of the best variant over control? Answer in percentage points.",
+          "answer": 6.2,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "What is the conversion rate for Variant B? Answer in percent.",
+          "answer": 18.7,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "What is Variant B's lift over Control in percent? Answer in percent.",
+          "answer": 49.6,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.0,
+      5.0,
+      12.5,
+      15.2,
+      18.7,
+      25.0
+    ]
+  },
+  "chart_007": {
+    "chart_type": "line",
+    "category": "tech",
+    "difficulty": "medium",
+    "data_points": {
+      "H00": 45,
+      "H01": 42,
+      "H02": 38,
+      "H03": 35,
+      "H04": 32,
+      "H05": 30,
+      "H06": 28,
+      "H07": 25,
+      "H08": 22,
+      "H09": 20,
+      "H10": 18,
+      "H11": 16,
+      "H12": 15,
+      "H13": 17,
+      "H14": 19,
+      "H15": 22,
+      "H16": 25,
+      "H17": 28,
+      "H18": 32,
+      "H19": 35,
+      "H20": 38,
+      "H21": 42,
+      "H22": 45,
+      "H23": 47
+    },
+    "key_facts": {
+      "min_latency": 15,
+      "max_latency": 47,
+      "avg_latency": 29.8,
+      "peak_hour": 23
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the minimum latency recorded? Answer in milliseconds.",
+          "answer": 15,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "What is the latency at hour 12? Answer in milliseconds.",
+          "answer": 15,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the average latency across all hours? Answer in milliseconds.",
+          "answer": 29.8,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "At what hour does latency peak?",
+          "answer": "H23",
+          "type": "categorical"
+        },
+        {
+          "id": "q5",
+          "text": "Which hour has the steepest latency increase compared to the previous hour?",
+          "answer": "H15",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.0,
+      15.0,
+      16.0,
+      17.0,
+      18.0,
+      19.0,
+      20.0,
+      22.0,
+      23.0,
+      24.0,
+      25.0,
+      28.0,
+      30.0,
+      32.0,
+      35.0,
+      38.0,
+      42.0,
+      45.0,
+      47.0
+    ]
+  },
+  "chart_008": {
+    "chart_type": "line",
+    "category": "financial",
+    "difficulty": "easy",
+    "data_points": {
+      "2024-01-01": 96.87,
+      "2024-01-02": 99.54,
+      "2024-01-03": 106.0,
+      "2024-01-04": 111.47,
+      "2024-01-05": 103.68,
+      "2024-01-06": 110.7,
+      "2024-01-07": 113.02,
+      "2024-01-08": 114.69,
+      "2024-01-09": 115.97,
+      "2024-01-10": 123.41,
+      "2024-01-11": 124.1,
+      "2024-01-12": 121.22,
+      "2024-01-13": 122.66,
+      "2024-01-14": 127.71,
+      "2024-01-15": 124.97,
+      "2024-01-16": 126.61,
+      "2024-01-17": 135.18,
+      "2024-01-18": 137.09,
+      "2024-01-19": 136.43,
+      "2024-01-20": 139.78,
+      "2024-01-21": 136.97,
+      "2024-01-22": 136.46,
+      "2024-01-23": 143.31,
+      "2024-01-24": 147.13,
+      "2024-01-25": 146.59,
+      "2024-01-26": 149.34,
+      "2024-01-27": 153.04,
+      "2024-01-28": 153.37,
+      "2024-01-29": 157.22,
+      "2024-01-30": 161.06
+    },
+    "key_facts": {
+      "start_price": 96.87,
+      "end_price": 161.06,
+      "price_change": 64.19,
+      "percent_change": 66.26
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What was the starting price? Answer in exact dollars.",
+          "answer": 96.87,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "What was the ending price? Answer in exact dollars.",
+          "answer": 161.06,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What was the total price change? Answer in exact dollars.",
+          "answer": 64.19,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "What was the percentage change? Answer in percent.",
+          "answer": 66.26,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "Which day saw the largest single-day gain?",
+          "answer": "2024-01-17",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      30.0,
+      96.87,
+      99.54,
+      103.68,
+      106.0,
+      110.7,
+      111.47,
+      113.02,
+      114.69,
+      115.97,
+      121.22,
+      122.66,
+      123.41,
+      124.1,
+      124.97,
+      126.61,
+      127.71,
+      135.18,
+      136.43,
+      136.46,
+      136.97,
+      137.09,
+      139.78,
+      143.31,
+      146.59,
+      147.13,
+      149.34,
+      153.04,
+      153.37,
+      157.22,
+      161.06,
+      2024.0
+    ]
+  },
+  "chart_009": {
+    "chart_type": "pie",
+    "category": "financial",
+    "difficulty": "easy",
+    "data_points": {
+      "Marketing": 35,
+      "Development": 25,
+      "Operations": 20,
+      "Sales": 15,
+      "Support": 5
+    },
+    "key_facts": {
+      "largest_category": "Marketing",
+      "largest_percentage": 35,
+      "smallest_category": "Support",
+      "smallest_percentage": 5
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What percentage of budget goes to Marketing? Answer in percent.",
+          "answer": 35,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which department gets the largest budget allocation?",
+          "answer": "Marketing",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What percentage goes to Development? Answer in percent.",
+          "answer": 25,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Which department has the smallest budget allocation?",
+          "answer": "Support",
+          "type": "categorical"
+        },
+        {
+          "id": "q5",
+          "text": "What percent of total budget is Marketing plus Development? Answer in percent.",
+          "answer": 60,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      5.0,
+      15.0,
+      20.0,
+      25.0,
+      35.0,
+      90.0,
+      100.0
+    ]
+  },
+  "chart_010": {
+    "chart_type": "combo",
+    "category": "edge_case",
+    "difficulty": "hard",
+    "data_points": {
+      "revenue": {
+        "Jan": 50000,
+        "Feb": 52000,
+        "Mar": 58000,
+        "Apr": 65000,
+        "May": 71000,
+        "Jun": 78000
+      },
+      "customers": {
+        "Jan": 1200,
+        "Feb": 1350,
+        "Mar": 1500,
+        "Apr": 1650,
+        "May": 1800,
+        "Jun": 1950
+      }
+    },
+    "key_facts": {
+      "revenue_growth": 56.0,
+      "customer_growth": 62.5,
+      "revenue_per_customer": 40.0
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What was the revenue in March? Answer in exact dollars.",
+          "answer": 58000,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "How many customers were there in June? Answer in exact count.",
+          "answer": 1950,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the revenue growth rate from January to June? Answer in percent.",
+          "answer": 56.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "What is the revenue per customer in June? Answer in exact dollars.",
+          "answer": 40.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "When Revenue peaks, approximately how many Customers are there? Answer in exact count.",
+          "answer": 1950,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      1.0,
+      1.2,
+      1.35,
+      1.5,
+      1.65,
+      1.8,
+      1.95,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      1200.0,
+      1350.0,
+      1500.0,
+      1650.0,
+      1800.0,
+      1950.0
+    ]
+  },
+  "chart_011": {
+    "chart_type": "scatter",
+    "category": "strategic",
+    "difficulty": "hard",
+    "data_points": {
+      "Campaign 01": {
+        "marketing_spend": 18000.0,
+        "revenue": 37309.27
+      },
+      "Campaign 02": {
+        "marketing_spend": 20615.38,
+        "revenue": 36073.07
+      },
+      "Campaign 03": {
+        "marketing_spend": 23230.77,
+        "revenue": 49209.93
+      },
+      "Campaign 04": {
+        "marketing_spend": 25846.15,
+        "revenue": 64095.57
+      },
+      "Campaign 05": {
+        "marketing_spend": 28461.54,
+        "revenue": 61171.75
+      },
+      "Campaign 06": {
+        "marketing_spend": 31076.92,
+        "revenue": 77041.03
+      },
+      "Campaign 07": {
+        "marketing_spend": 33692.31,
+        "revenue": 88676.85
+      },
+      "Campaign 08": {
+        "marketing_spend": 36307.69,
+        "revenue": 74340.11
+      },
+      "Campaign 09": {
+        "marketing_spend": 38923.08,
+        "revenue": 91596.72
+      },
+      "Campaign 10": {
+        "marketing_spend": 41538.46,
+        "revenue": 87310.1
+      },
+      "Campaign 11": {
+        "marketing_spend": 44153.85,
+        "revenue": 98485.29
+      },
+      "Campaign 12": {
+        "marketing_spend": 46769.23,
+        "revenue": 120991.96
+      },
+      "Campaign 13": {
+        "marketing_spend": 49384.62,
+        "revenue": 106814.43
+      },
+      "Campaign 14": {
+        "marketing_spend": 52000.0,
+        "revenue": 106659.18
+      },
+      "Campaign 15": {
+        "marketing_spend": 54615.38,
+        "revenue": 109408.71
+      },
+      "Campaign 16": {
+        "marketing_spend": 57230.77,
+        "revenue": 136925.75
+      },
+      "Campaign 17": {
+        "marketing_spend": 59846.15,
+        "revenue": 136957.11
+      },
+      "Campaign 18": {
+        "marketing_spend": 62461.54,
+        "revenue": 141850.01
+      },
+      "Campaign 19": {
+        "marketing_spend": 65076.92,
+        "revenue": 160713.4
+      },
+      "Campaign 20": {
+        "marketing_spend": 67692.31,
+        "revenue": 141612.58
+      },
+      "Campaign 21": {
+        "marketing_spend": 70307.69,
+        "revenue": 160180.82
+      },
+      "Campaign 22": {
+        "marketing_spend": 72923.08,
+        "revenue": 170330.87
+      },
+      "Campaign 23": {
+        "marketing_spend": 75538.46,
+        "revenue": 170187.96
+      },
+      "Campaign 24": {
+        "marketing_spend": 78153.85,
+        "revenue": 186151.98
+      },
+      "Campaign 25": {
+        "marketing_spend": 80769.23,
+        "revenue": 179315.91
+      },
+      "Campaign 26": {
+        "marketing_spend": 83384.62,
+        "revenue": 186382.18
+      },
+      "Campaign 27": {
+        "marketing_spend": 86000.0,
+        "revenue": 197299.91
+      },
+      "Campaign 28": {
+        "marketing_spend": 88615.38,
+        "revenue": 193083.74
+      },
+      "Campaign 29": {
+        "marketing_spend": 91230.77,
+        "revenue": 218302.55
+      },
+      "Campaign 30": {
+        "marketing_spend": 93846.15,
+        "revenue": 223131.38
+      },
+      "Campaign 31": {
+        "marketing_spend": 96461.54,
+        "revenue": 232461.14
+      },
+      "Campaign 32": {
+        "marketing_spend": 99076.92,
+        "revenue": 217537.84
+      },
+      "Campaign 33": {
+        "marketing_spend": 101692.31,
+        "revenue": 234295.38
+      },
+      "Campaign 34": {
+        "marketing_spend": 104307.69,
+        "revenue": 246000.73
+      },
+      "Campaign 35": {
+        "marketing_spend": 106923.08,
+        "revenue": 260868.54
+      },
+      "Campaign 36": {
+        "marketing_spend": 109538.46,
+        "revenue": 233355.11
+      },
+      "Campaign 37": {
+        "marketing_spend": 112153.85,
+        "revenue": 254593.24
+      },
+      "Campaign 38": {
+        "marketing_spend": 114769.23,
+        "revenue": 278071.87
+      },
+      "Campaign 39": {
+        "marketing_spend": 117384.62,
+        "revenue": 279577.38
+      },
+      "Campaign 40": {
+        "marketing_spend": 120000.0,
+        "revenue": 286203.4
+      }
+    },
+    "key_facts": {
+      "correlation": 0.99,
+      "trend": "strong_positive",
+      "steepest_campaign": "Campaign 40"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the approximate correlation coefficient between spend and revenue? Answer in decimal.",
+          "answer": 0.99,
+          "type": "numeric",
+          "tolerance": 0.05
+        },
+        {
+          "id": "q2",
+          "text": "Which campaign generated the highest revenue?",
+          "answer": "Campaign 40",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Describe the relationship between marketing spend and revenue.",
+          "answer": "strong positive",
+          "type": "trend",
+          "keywords": [
+            "positive",
+            "increase",
+            "direct",
+            "strong"
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "If marketing spend reaches $110,000, what revenue should be expected? Answer in exact dollars.",
+          "answer": 255600.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "Is the relationship effectively positive or negative?",
+          "answer": "positive",
+          "type": "trend",
+          "keywords": [
+            "positive",
+            "direct",
+            "increase"
+          ]
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      -5299.935958726228,
+      0.9928981530415146,
+      2.3719464395108125,
+      18.0,
+      20.615384615384617,
+      23.23076923076923,
+      25.846153846153843,
+      28.46153846153846,
+      31.076923076923077,
+      33.692307692307686,
+      36.07306780290732,
+      36.30769230769231,
+      37.309270077567,
+      38.92307692307692,
+      41.53846153846154,
+      44.15384615384615,
+      46.76923076923077,
+      49.209928791585206,
+      49.38461538461538,
+      52.0,
+      54.61538461538461,
+      57.230769230769226,
+      59.84615384615385,
+      61.17174554069665,
+      62.46153846153846,
+      64.09556983136616,
+      65.07692307692308,
+      67.6923076923077,
+      70.3076923076923,
+      72.92307692307692,
+      74.3401062782356,
+      75.53846153846153,
+      77.04103469274115,
+      78.15384615384616,
+      80.76923076923076,
+      83.38461538461537,
+      86.0,
+      87.31009657156721,
+      88.61538461538461,
+      88.67684597318699,
+      91.23076923076923,
+      91.59671702479083,
+      93.84615384615384,
+      96.46153846153845,
+      98.48529361240303,
+      99.07692307692308,
+      101.6923076923077,
+      104.30769230769229,
+      106.65918442064537,
+      106.81443189937127,
+      106.92307692307692,
+      109.40871202400412,
+      109.53846153846153,
+      112.15384615384616,
+      114.76923076923076,
+      117.38461538461537,
+      120.0,
+      120.99196267211408,
+      136.92574629059064,
+      136.9571140636712,
+      141.61257731103387,
+      141.8500139628672,
+      160.18082280136576,
+      160.71339776635634,
+      170.18795772882973,
+      170.33086584952764,
+      179.31590668177355,
+      186.15197516242816,
+      186.38218305181968,
+      193.0837392503274,
+      197.29991144211786,
+      217.53783644983938,
+      218.30254591537977,
+      223.1313812534427,
+      232.46114153407203,
+      233.35510706547072,
+      234.2953783426921,
+      246.0007300601035,
+      254.593244379876,
+      260.8685403410515,
+      278.07187422557575,
+      279.57737884855675,
+      286.2033977088422,
+      18000.0,
+      20615.384615384617,
+      23230.76923076923,
+      25846.153846153844,
+      28461.53846153846,
+      31076.923076923078,
+      33692.30769230769,
+      36073.06780290732,
+      36307.692307692305,
+      37309.270077567,
+      38923.07692307692,
+      41538.46153846154,
+      44153.846153846156,
+      46769.230769230766,
+      49209.928791585204,
+      49384.61538461538,
+      52000.0,
+      54615.38461538461,
+      57230.76923076923,
+      59846.153846153844,
+      61171.74554069665,
+      62461.53846153846,
+      64095.569831366156,
+      65076.92307692308,
+      67692.30769230769,
+      70307.69230769231,
+      72923.07692307692,
+      74340.1062782356,
+      75538.46153846153,
+      77041.03469274114,
+      78153.84615384616,
+      80769.23076923077,
+      83384.61538461538,
+      86000.0,
+      87310.09657156722,
+      88615.38461538461,
+      88676.84597318698,
+      91230.76923076922,
+      91596.71702479084,
+      93846.15384615384,
+      96461.53846153845,
+      98485.29361240302,
+      99076.92307692308,
+      101692.30769230769,
+      104307.6923076923,
+      106659.18442064537,
+      106814.43189937127,
+      106923.07692307692,
+      109408.71202400411,
+      109538.46153846153,
+      110000.0,
+      112153.84615384616,
+      114769.23076923077,
+      117384.61538461538,
+      120000.0,
+      120991.96267211408,
+      136925.74629059064,
+      136957.1140636712,
+      141612.57731103388,
+      141850.0139628672,
+      160180.82280136575,
+      160713.39776635633,
+      170187.95772882973,
+      170330.86584952765,
+      179315.90668177354,
+      186151.97516242816,
+      186382.18305181968,
+      193083.7392503274,
+      197299.91144211785,
+      217537.83644983938,
+      218302.54591537977,
+      223131.3812534427,
+      232461.14153407203,
+      233355.10706547071,
+      234295.3783426921,
+      246000.7300601035,
+      254593.244379876,
+      255614.17238746316,
+      260868.54034105153,
+      278071.87422557577,
+      279577.3788485567,
+      286203.3977088422
+    ]
+  },
+  "chart_012": {
+    "chart_type": "heatmap",
+    "category": "operational",
+    "difficulty": "hard",
+    "data_points": {
+      "North": {
+        "Jan": 86,
+        "Feb": 81,
+        "Mar": 72,
+        "Apr": 92,
+        "May": 67,
+        "Jun": 77
+      },
+      "South": {
+        "Jan": 88,
+        "Feb": 69,
+        "Mar": 91,
+        "Apr": 83,
+        "May": 74,
+        "Jun": 78
+      },
+      "East": {
+        "Jan": 70,
+        "Feb": 90,
+        "Mar": 63,
+        "Apr": 88,
+        "May": 62,
+        "Jun": 69
+      },
+      "West": {
+        "Jan": 94,
+        "Feb": 96,
+        "Mar": 93,
+        "Apr": 64,
+        "May": 65,
+        "Jun": 77
+      },
+      "Central": {
+        "Jan": 95,
+        "Feb": 93,
+        "Mar": 79,
+        "Apr": 92,
+        "May": 70,
+        "Jun": 83
+      }
+    },
+    "key_facts": {
+      "best_cell": "West-Feb",
+      "worst_cell": "East-May",
+      "average": 80.0
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which region-month combination achieved the highest quality score?",
+          "answer": "West Feb",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What was the lowest quality score recorded? Answer in exact score.",
+          "answer": 62,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which region shows the most consistent quality across months?",
+          "answer": "South",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "What is the overall average quality score across the grid? Answer in exact score.",
+          "answer": 80.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "Which region has the most consistent intensity across months?",
+          "answer": "South",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      62.0,
+      63.0,
+      64.0,
+      65.0,
+      67.0,
+      69.0,
+      70.0,
+      72.0,
+      74.0,
+      77.0,
+      78.0,
+      79.0,
+      80.0,
+      81.0,
+      83.0,
+      86.0,
+      88.0,
+      90.0,
+      91.0,
+      92.0,
+      93.0,
+      94.0,
+      95.0,
+      96.0
+    ]
+  },
+  "chart_013": {
+    "chart_type": "box",
+    "category": "reliability",
+    "difficulty": "hard",
+    "data_points": {
+      "Auth": {
+        "median": 151.6,
+        "iqr": 62.5,
+        "outliers": 3
+      },
+      "Search": {
+        "median": 134.7,
+        "iqr": 74.5,
+        "outliers": 0
+      },
+      "Checkout": {
+        "median": 129.7,
+        "iqr": 57.9,
+        "outliers": 1
+      },
+      "Analytics": {
+        "median": 146.8,
+        "iqr": 86.3,
+        "outliers": 3
+      }
+    },
+    "key_facts": {
+      "slowest_service": "Auth",
+      "most_variable_service": "Analytics",
+      "outlier_counts": {
+        "Auth": 3,
+        "Search": 0,
+        "Checkout": 1,
+        "Analytics": 3
+      }
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which service has the highest median latency?",
+          "answer": "Auth",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is the median latency for the Checkout service? Answer in milliseconds.",
+          "answer": 129.70479359481777,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which service experiences the widest latency variability?",
+          "answer": "Analytics",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "Approximately how many outliers does the Analytics service have? Answer in exact count.",
+          "answer": 3,
+          "type": "numeric",
+          "tolerance": 2
+        },
+        {
+          "id": "q5",
+          "text": "Which service has the largest IQR?",
+          "answer": "Analytics",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.0,
+      1.0,
+      3.0,
+      57.893493876220674,
+      62.544618594469895,
+      74.49781984598002,
+      86.32944792797188,
+      129.70479359481777,
+      134.6945894086562,
+      146.80741157525017,
+      151.55941372898087
+    ]
+  },
+  "chart_014": {
+    "chart_type": "waterfall",
+    "category": "financial",
+    "difficulty": "hard",
+    "data_points": {
+      "Starting Cash": 420000,
+      "Revenue": 580000,
+      "COGS": -230000,
+      "Marketing": -120000,
+      "R&D": -95000,
+      "Operations": -75000,
+      "Other": 45000,
+      "Ending Cash": 530000
+    },
+    "key_facts": {
+      "net_change": 110000,
+      "largest_negative": "COGS",
+      "ending_cash": 530000
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which component caused the largest decrease in cash?",
+          "answer": "COGS",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is the ending cash balance? Answer in thousands.",
+          "answer": 530.0,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the net change from starting to ending cash? Answer in thousands.",
+          "answer": 110.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Did positive drivers outweigh the negative impacts?",
+          "answer": "yes",
+          "type": "categorical"
+        },
+        {
+          "id": "q5",
+          "text": "What percent of net change is explained by Revenue? Answer in percent.",
+          "answer": 527.3,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      -230000.0,
+      -120000.0,
+      -95000.0,
+      -75000.0,
+      -230.0,
+      -120.0,
+      -95.0,
+      -75.0,
+      45.0,
+      420.0,
+      530.0,
+      580.0,
+      45000.0,
+      420000.0,
+      480000.0,
+      525000.0,
+      530000.0,
+      555000.0,
+      580000.0,
+      650000.0,
+      770000.0,
+      1000000.0
+    ]
+  },
+  "chart_015": {
+    "chart_type": "log_line",
+    "category": "growth",
+    "difficulty": "hard",
+    "data_points": {
+      "2012": 450,
+      "2013": 730,
+      "2014": 1180,
+      "2015": 1890,
+      "2016": 3020,
+      "2017": 4860,
+      "2018": 7840,
+      "2019": 12640,
+      "2020": 20400,
+      "2021": 32900,
+      "2022": 53100,
+      "2023": 85750,
+      "2024": 138530,
+      "2025": 223950
+    },
+    "key_facts": {
+      "growth_factor": 1.61,
+      "doubling_period_years": 1.5,
+      "final_year_users": 223950
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Approximately how many active users were there in 2020? Answer in exact count.",
+          "answer": 20400,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "What is the user count in 2025? Answer in exact count.",
+          "answer": 223950,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the average annual growth factor across the observed period? Answer in decimal.",
+          "answer": 1.61,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Roughly how many years does it take for the user base to double? Answer in years.",
+          "answer": 1.5,
+          "type": "numeric",
+          "tolerance": 1
+        },
+        {
+          "id": "q5",
+          "text": "Which year has the highest multiplicative growth over its previous year?",
+          "answer": "2013",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      1.5,
+      1.61
+    ]
+  },
+  "chart_016": {
+    "chart_type": "gantt",
+    "category": "program",
+    "difficulty": "hard",
+    "data_points": {
+      "Discovery": {
+        "start": 0,
+        "duration": 15,
+        "owner": "Research"
+      },
+      "Design": {
+        "start": 12,
+        "duration": 22,
+        "owner": "UX"
+      },
+      "Implementation": {
+        "start": 35,
+        "duration": 48,
+        "owner": "Engineering"
+      },
+      "Testing": {
+        "start": 58,
+        "duration": 20,
+        "owner": "QA"
+      },
+      "Launch": {
+        "start": 80,
+        "duration": 7,
+        "owner": "Operations"
+      }
+    },
+    "key_facts": {
+      "total_duration": 87,
+      "critical_path": 112,
+      "latest_start": "Launch"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which phase begins last in the schedule?",
+          "answer": "Launch",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is the total number of days from kickoff to launch? Answer in days.",
+          "answer": 87,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which two phases overlap the most in time?",
+          "answer": "Implementation and Testing",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "What is the cumulative critical-path duration? Answer in days.",
+          "answer": 112,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "Which two phases overlap the longest?",
+          "answer": "Implementation Testing",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.0,
+      7.0,
+      12.0,
+      15.0,
+      20.0,
+      22.0,
+      35.0,
+      48.0,
+      58.0,
+      80.0,
+      87.0,
+      112.0
+    ]
+  },
+  "chart_017": {
+    "chart_type": "bubble",
+    "category": "market",
+    "difficulty": "hard",
+    "data_points": {
+      "Aurora": {
+        "market_share": 24,
+        "revenue_millions": 410,
+        "profit_margin": 18.5,
+        "headcount": 1800
+      },
+      "Beacon": {
+        "market_share": 18,
+        "revenue_millions": 295,
+        "profit_margin": 22.1,
+        "headcount": 1200
+      },
+      "Cascade": {
+        "market_share": 31,
+        "revenue_millions": 520,
+        "profit_margin": 16.3,
+        "headcount": 2300
+      },
+      "Dynamo": {
+        "market_share": 15,
+        "revenue_millions": 260,
+        "profit_margin": 24.8,
+        "headcount": 950
+      },
+      "Everest": {
+        "market_share": 12,
+        "revenue_millions": 215,
+        "profit_margin": 19.7,
+        "headcount": 760
+      }
+    },
+    "key_facts": {
+      "largest_share": "Cascade",
+      "highest_margin": "Dynamo",
+      "most_efficient": "Dynamo"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which company holds the largest market share?",
+          "answer": "Cascade",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "Which company has the highest profit margin?",
+          "answer": "Dynamo",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which firm achieves the highest profit margin per thousand employees?",
+          "answer": "Dynamo",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "Into which quadrant does Dynamo fall based on margin and volume?",
+          "answer": "high margin low volume",
+          "type": "categorical"
+        },
+        {
+          "id": "q5",
+          "text": "Which company has the best margin per thousand employees?",
+          "answer": "Dynamo",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      12.0,
+      15.0,
+      16.3,
+      18.0,
+      18.5,
+      19.7,
+      22.1,
+      24.0,
+      24.8,
+      31.0,
+      215.0,
+      260.0,
+      295.0,
+      410.0,
+      520.0,
+      760.0,
+      950.0,
+      1200.0,
+      1800.0,
+      2300.0
+    ]
+  },
+  "chart_018": {
+    "chart_type": "radar",
+    "category": "product",
+    "difficulty": "hard",
+    "data_points": {
+      "Product Alpha": {
+        "Reliability": 8.9,
+        "Integrations": 7.4,
+        "Usability": 8.1,
+        "Security": 9.2,
+        "Insights": 7.8,
+        "Support": 8.5
+      },
+      "Product Beta": {
+        "Reliability": 7.2,
+        "Integrations": 8.8,
+        "Usability": 9.1,
+        "Security": 7.5,
+        "Insights": 8.9,
+        "Support": 7.1
+      }
+    },
+    "key_facts": {
+      "alpha_average": 8.32,
+      "beta_average": 8.1,
+      "beta_strongest_advantage": "Integrations"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "In which category does Product Beta outperform Product Alpha the most?",
+          "answer": "Integrations",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is the average score of Product Alpha across all categories? Answer in exact score.",
+          "answer": 8.32,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which product shows a more balanced performance overall?",
+          "answer": "Product Alpha",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "What is the score difference in the Support category (Beta minus Alpha)? Answer in exact score.",
+          "answer": -1.4,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "Which category shows the greatest advantage for Product Beta over Alpha?",
+          "answer": "Integrations",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      -1.7,
+      -1.4,
+      1.0,
+      1.1,
+      1.4,
+      7.1,
+      7.2,
+      7.4,
+      7.5,
+      7.8,
+      8.1,
+      8.32,
+      8.5,
+      8.8,
+      8.9,
+      9.1,
+      9.2
+    ]
+  },
+  "chart_019": {
+    "chart_type": "stacked_area",
+    "category": "revenue",
+    "difficulty": "hard",
+    "data_points": {
+      "Enterprise": {
+        "2020": 32,
+        "2021": 41,
+        "2022": 49,
+        "2023": 58
+      },
+      "Mid-Market": {
+        "2020": 22,
+        "2021": 27,
+        "2022": 35,
+        "2023": 39
+      },
+      "SMB": {
+        "2020": 15,
+        "2021": 18,
+        "2022": 22,
+        "2023": 24
+      }
+    },
+    "key_facts": {
+      "total_2023": 121,
+      "leading_segment_2023": "Enterprise",
+      "total_growth": 52
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the total revenue across all segments in 2023? Answer in millions.",
+          "answer": 121,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which segment contributes the most revenue in 2023?",
+          "answer": "Enterprise",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Describe the overall trend in total revenue from 2020 to 2023.",
+          "answer": "increasing",
+          "type": "trend",
+          "keywords": [
+            "increase",
+            "upward",
+            "growth"
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "By how much did total revenue grow from 2020 to 2023? Answer in millions.",
+          "answer": 52,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "What percent of total in 2022 came from Enterprise? Answer in percent.",
+          "answer": 46.2,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      15.0,
+      18.0,
+      22.0,
+      24.0,
+      27.0,
+      32.0,
+      35.0,
+      39.0,
+      41.0,
+      49.0,
+      52.0,
+      58.0,
+      69.0,
+      86.0,
+      106.0,
+      121.0
+    ]
+  },
+  "chart_020": {
+    "chart_type": "dual_axis",
+    "category": "customer",
+    "difficulty": "hard",
+    "data_points": {
+      "churn": {
+        "Jan": 5.2,
+        "Feb": 4.8,
+        "Mar": 4.5,
+        "Apr": 4.1,
+        "May": 3.9,
+        "Jun": 3.6,
+        "Jul": 3.4,
+        "Aug": 3.2
+      },
+      "satisfaction": {
+        "Jan": 72,
+        "Feb": 74,
+        "Mar": 76,
+        "Apr": 79,
+        "May": 81,
+        "Jun": 84,
+        "Jul": 86,
+        "Aug": 88
+      }
+    },
+    "key_facts": {
+      "correlation": -0.99,
+      "churn_percent_improvement": 38.5,
+      "absolute_churn_drop": 2.0
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What was the churn rate in June? Answer in percent.",
+          "answer": 3.6,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "What was the customer satisfaction score in August? Answer in exact score.",
+          "answer": 88,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the approximate correlation between churn and satisfaction? Answer in decimal.",
+          "answer": -0.99,
+          "type": "numeric",
+          "tolerance": 0.05
+        },
+        {
+          "id": "q4",
+          "text": "By what percentage did churn improve from January to August? Answer in percent.",
+          "answer": 38.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q5",
+          "text": "At the month of minimum churn, what is satisfaction? Answer in exact score.",
+          "answer": 88,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      -0.9926824019446331,
+      2.0,
+      3.2,
+      3.4,
+      3.6,
+      3.9,
+      4.1,
+      4.5,
+      4.8,
+      5.2,
+      38.46153846153846,
+      72.0,
+      74.0,
+      76.0,
+      79.0,
+      81.0,
+      84.0,
+      86.0,
+      88.0
+    ]
+  },
+  "chart_021": {
+    "chart_type": "line_interval",
+    "category": "planning",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Jan": {
+        "actual": 82,
+        "forecast": 81.1,
+        "lower": 77.0,
+        "upper": 85.1
+      },
+      "Feb": {
+        "actual": 94,
+        "forecast": 92.8,
+        "lower": 88.2,
+        "upper": 97.4
+      },
+      "Mar": {
+        "actual": 88,
+        "forecast": 91.0,
+        "lower": 86.5,
+        "upper": 95.6
+      },
+      "Apr": {
+        "actual": 91,
+        "forecast": 94.0,
+        "lower": 89.3,
+        "upper": 98.7
+      },
+      "May": {
+        "actual": 105,
+        "forecast": 107.8,
+        "lower": 102.4,
+        "upper": 113.2
+      },
+      "Jun": {
+        "actual": 112,
+        "forecast": 108.1,
+        "lower": 102.7,
+        "upper": 113.5
+      },
+      "Jul": {
+        "actual": 120,
+        "forecast": 117.6,
+        "lower": 111.7,
+        "upper": 123.5
+      },
+      "Aug": {
+        "actual": 124,
+        "forecast": 124.1,
+        "lower": 117.9,
+        "upper": 130.3
+      },
+      "Sep": {
+        "actual": 118,
+        "forecast": 114.1,
+        "lower": 108.4,
+        "upper": 119.8
+      },
+      "Oct": {
+        "actual": 126,
+        "forecast": 128.9,
+        "lower": 122.4,
+        "upper": 135.3
+      },
+      "Nov": {
+        "actual": 132,
+        "forecast": 130.9,
+        "lower": 124.4,
+        "upper": 137.5
+      },
+      "Dec": {
+        "actual": 140,
+        "forecast": 139.4,
+        "lower": 132.4,
+        "upper": 146.3
+      }
+    },
+    "key_facts": {
+      "final_actual": 140,
+      "final_forecast": 139.4,
+      "largest_gap_month": "Jun"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What were the actual sales in August? Answer in thousands.",
+          "answer": 124,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "What is the forecasted sales for December? Answer in thousands.",
+          "answer": 139.4,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which month shows the largest variance between actual and forecast?",
+          "answer": "Jun",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "Describe the overall relationship between actuals and forecast.",
+          "answer": "closely aligned",
+          "type": "trend",
+          "keywords": [
+            "aligned",
+            "close",
+            "accurate",
+            "tight"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Which month deviates most from forecast (absolute difference)?",
+          "answer": "Jun",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      76.99897194216223,
+      81.1,
+      85.10412688344246,
+      86.49661588597912,
+      88.16302437506836,
+      89.311973487921,
+      91.0,
+      92.8,
+      94.0,
+      95.60152282134537,
+      97.44334273033873,
+      98.71323385507057,
+      102.44296853244362,
+      102.65036241545039,
+      107.8,
+      108.1,
+      108.41903257434946,
+      111.70367725310355,
+      113.2264389042798,
+      113.45566372233992,
+      114.1,
+      117.6,
+      117.88594164411612,
+      119.83156231901783,
+      122.43060489593827,
+      123.46195906921973,
+      124.1,
+      124.38788648262147,
+      128.9,
+      130.29498813297045,
+      130.9,
+      132.39027891912295,
+      135.31803699024758,
+      137.48134821763426,
+      139.4,
+      146.32609775271484
+    ]
+  },
+  "chart_022": {
+    "chart_type": "scatter_quadrant",
+    "category": "strategy",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Product A": {
+        "margin": 17.36,
+        "volume": 4875,
+        "quadrant": "Commodity"
+      },
+      "Product B": {
+        "margin": 29.73,
+        "volume": 8393,
+        "quadrant": "Strategic"
+      },
+      "Product C": {
+        "margin": 29.21,
+        "volume": 8984,
+        "quadrant": "Strategic"
+      },
+      "Product D": {
+        "margin": 34.45,
+        "volume": 4438,
+        "quadrant": "Premium"
+      },
+      "Product E": {
+        "margin": 24.26,
+        "volume": 2578,
+        "quadrant": "Commodity"
+      },
+      "Product F": {
+        "margin": 40.61,
+        "volume": 3307,
+        "quadrant": "Premium"
+      },
+      "Product G": {
+        "margin": 41.91,
+        "volume": 3116,
+        "quadrant": "Premium"
+      },
+      "Product H": {
+        "margin": 36.31,
+        "volume": 9298,
+        "quadrant": "Strategic"
+      },
+      "Product I": {
+        "margin": 14.93,
+        "volume": 9706,
+        "quadrant": "Volume"
+      },
+      "Product J": {
+        "margin": 12.56,
+        "volume": 2543,
+        "quadrant": "Commodity"
+      },
+      "Product K": {
+        "margin": 28.91,
+        "volume": 3897,
+        "quadrant": "Premium"
+      },
+      "Product L": {
+        "margin": 28.16,
+        "volume": 2861,
+        "quadrant": "Premium"
+      },
+      "Product M": {
+        "margin": 29.92,
+        "volume": 7566,
+        "quadrant": "Strategic"
+      },
+      "Product N": {
+        "margin": 41.62,
+        "volume": 3330,
+        "quadrant": "Premium"
+      },
+      "Product O": {
+        "margin": 19.4,
+        "volume": 1920,
+        "quadrant": "Commodity"
+      },
+      "Product P": {
+        "margin": 35.49,
+        "volume": 3032,
+        "quadrant": "Premium"
+      },
+      "Product Q": {
+        "margin": 30.81,
+        "volume": 9012,
+        "quadrant": "Strategic"
+      },
+      "Product R": {
+        "margin": 26.3,
+        "volume": 6715,
+        "quadrant": "Strategic"
+      },
+      "Product S": {
+        "margin": 10.36,
+        "volume": 2573,
+        "quadrant": "Commodity"
+      },
+      "Product T": {
+        "margin": 11.04,
+        "volume": 3132,
+        "quadrant": "Commodity"
+      },
+      "Product U": {
+        "margin": 37.64,
+        "volume": 1838,
+        "quadrant": "Premium"
+      },
+      "Product V": {
+        "margin": 27.99,
+        "volume": 5514,
+        "quadrant": "Premium"
+      },
+      "Product W": {
+        "margin": 10.6,
+        "volume": 2360,
+        "quadrant": "Commodity"
+      },
+      "Product X": {
+        "margin": 19.7,
+        "volume": 9065,
+        "quadrant": "Volume"
+      },
+      "Product Y": {
+        "margin": 20.46,
+        "volume": 3998,
+        "quadrant": "Commodity"
+      },
+      "Product Z": {
+        "margin": 8.4,
+        "volume": 6448,
+        "quadrant": "Volume"
+      },
+      "Product [": {
+        "margin": 23.02,
+        "volume": 8972,
+        "quadrant": "Volume"
+      },
+      "Product \\": {
+        "margin": 9.82,
+        "volume": 3072,
+        "quadrant": "Commodity"
+      },
+      "Product ]": {
+        "margin": 30.87,
+        "volume": 8314,
+        "quadrant": "Strategic"
+      },
+      "Product ^": {
+        "margin": 9.1,
+        "volume": 5019,
+        "quadrant": "Commodity"
+      }
+    },
+    "key_facts": {
+      "top_margin_product": "Product G",
+      "top_volume_product": "Product I",
+      "strategic_count": 7
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which product delivers the highest gross margin?",
+          "answer": "Product G",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "Approximately how many units did the top volume product sell? Answer in exact units.",
+          "answer": 9706,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "How many products fall into the Strategic quadrant? Answer in exact count.",
+          "answer": 7,
+          "type": "numeric",
+          "tolerance": 1
+        },
+        {
+          "id": "q4",
+          "text": "Describe the trade-off trend between margin and volume.",
+          "answer": "inverse",
+          "type": "trend",
+          "keywords": [
+            "inverse",
+            "trade-off",
+            "opposite",
+            "negative"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "How many products fall in Strategic quadrant? Answer in exact count.",
+          "answer": 7,
+          "type": "numeric",
+          "tolerance": 1
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      8.4,
+      9.1,
+      9.82,
+      10.36,
+      10.6,
+      11.04,
+      12.56,
+      14.93,
+      17.36,
+      19.4,
+      19.7,
+      20.46,
+      23.02,
+      24.26,
+      26.3,
+      27.99,
+      28.16,
+      28.91,
+      29.21,
+      29.73,
+      29.92,
+      30.81,
+      30.87,
+      34.45,
+      35.49,
+      36.31,
+      37.64,
+      40.61,
+      41.62,
+      41.91,
+      1838.375238723666,
+      1920.7132540926557,
+      2360.224157183892,
+      2543.2460857517985,
+      2573.0387293171434,
+      2578.7397413837666,
+      2861.3619143191527,
+      3032.184500327876,
+      3072.3748652479276,
+      3116.7888373543324,
+      3132.0005852876334,
+      3307.159121504608,
+      3330.7008893195384,
+      3897.551520939846,
+      3998.225119135019,
+      4438.309844116789,
+      4875.924236503539,
+      5019.840520999671,
+      5514.177404061871,
+      6448.702344158976,
+      6715.2631834177055,
+      7566.4421523135015,
+      8314.43837241193,
+      8393.059468282076,
+      8972.000087185968,
+      8984.740922633278,
+      9012.827145640491,
+      9065.046249077272,
+      9298.138638628203,
+      9706.606716222988
+    ]
+  },
+  "chart_023": {
+    "chart_type": "cohort_heatmap",
+    "category": "retention",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Q1 2022": {
+        "Month 1": 0.848,
+        "Month 2": 0.69,
+        "Month 3": 0.871,
+        "Month 4": 0.834,
+        "Month 5": 0.743,
+        "Month 6": 0.865
+      },
+      "Q2 2022": {
+        "Month 1": 0.894,
+        "Month 2": 0.727,
+        "Month 3": 0.701,
+        "Month 4": 0.697,
+        "Month 5": 0.734,
+        "Month 6": 0.788
+      },
+      "Q3 2022": {
+        "Month 1": 0.869,
+        "Month 2": 0.75,
+        "Month 3": 0.694,
+        "Month 4": 0.785,
+        "Month 5": 0.879,
+        "Month 6": 0.754
+      },
+      "Q4 2022": {
+        "Month 1": 0.832,
+        "Month 2": 0.761,
+        "Month 3": 0.843,
+        "Month 4": 0.705,
+        "Month 5": 0.818,
+        "Month 6": 0.648
+      },
+      "Q1 2023": {
+        "Month 1": 0.681,
+        "Month 2": 0.825,
+        "Month 3": 0.715,
+        "Month 4": 0.881,
+        "Month 5": 0.685,
+        "Month 6": 0.689
+      },
+      "Q2 2023": {
+        "Month 1": 0.814,
+        "Month 2": 0.721,
+        "Month 3": 0.87,
+        "Month 4": 0.908,
+        "Month 5": 0.786,
+        "Month 6": 0.78
+      },
+      "Q3 2023": {
+        "Month 1": 0.818,
+        "Month 2": 0.803,
+        "Month 3": 0.907,
+        "Month 4": 0.804,
+        "Month 5": 0.681,
+        "Month 6": 0.822
+      },
+      "Q4 2023": {
+        "Month 1": 0.752,
+        "Month 2": 0.851,
+        "Month 3": 0.726,
+        "Month 4": 0.786,
+        "Month 5": 0.774,
+        "Month 6": 0.624
+      },
+      "Q1 2024": {
+        "Month 1": 0.752,
+        "Month 2": 0.588,
+        "Month 3": 0.745,
+        "Month 4": 0.731,
+        "Month 5": 0.802,
+        "Month 6": 0.842
+      },
+      "Q2 2024": {
+        "Month 1": 0.803,
+        "Month 2": 0.89,
+        "Month 3": 0.671,
+        "Month 4": 0.803,
+        "Month 5": 0.784,
+        "Month 6": 0.859
+      },
+      "Q3 2024": {
+        "Month 1": 0.783,
+        "Month 2": 0.889,
+        "Month 3": 0.692,
+        "Month 4": 0.778,
+        "Month 5": 0.824,
+        "Month 6": 0.786
+      },
+      "Q4 2024": {
+        "Month 1": 0.75,
+        "Month 2": 0.78,
+        "Month 3": 0.802,
+        "Month 4": 0.712,
+        "Month 5": 0.902,
+        "Month 6": 0.881
+      }
+    },
+    "key_facts": {
+      "best_final_retention": 0.88,
+      "best_cohort": "Q4 2024"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which cohort maintains the highest retention by Month 6?",
+          "answer": "Q4 2024",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is the retention rate for that cohort in Month 6? Answer in decimal (0-1).",
+          "answer": 0.88,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Describe the general retention trend across cohorts.",
+          "answer": "declining",
+          "type": "trend",
+          "keywords": [
+            "decline",
+            "drop",
+            "fade",
+            "decrease"
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "How many cohorts retain above 60% by Month 4? Answer in exact count.",
+          "answer": 12,
+          "type": "numeric",
+          "tolerance": 1
+        },
+        {
+          "id": "q5",
+          "text": "Excluding Month 1, which cohort retains best by Month 6?",
+          "answer": "Q4 2024",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.588,
+      0.624,
+      0.648,
+      0.671,
+      0.681,
+      0.685,
+      0.689,
+      0.69,
+      0.692,
+      0.694,
+      0.697,
+      0.701,
+      0.705,
+      0.712,
+      0.715,
+      0.721,
+      0.726,
+      0.727,
+      0.731,
+      0.734,
+      0.743,
+      0.745,
+      0.75,
+      0.752,
+      0.754,
+      0.761,
+      0.774,
+      0.778,
+      0.78,
+      0.783,
+      0.784,
+      0.785,
+      0.786,
+      0.788,
+      0.802,
+      0.803,
+      0.804,
+      0.814,
+      0.818,
+      0.822,
+      0.824,
+      0.825,
+      0.832,
+      0.834,
+      0.842,
+      0.843,
+      0.848,
+      0.851,
+      0.859,
+      0.865,
+      0.869,
+      0.87,
+      0.871,
+      0.879,
+      0.881,
+      0.889,
+      0.89,
+      0.894,
+      0.902,
+      0.907,
+      0.908
+    ]
+  },
+  "chart_024": {
+    "chart_type": "box",
+    "category": "support",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Email": {
+        "median": 12.98,
+        "iqr": 7.17,
+        "outliers": 1
+      },
+      "Chat": {
+        "median": 5.99,
+        "iqr": 3.52,
+        "outliers": 0
+      },
+      "Phone": {
+        "median": 4.2,
+        "iqr": 2.2,
+        "outliers": 0
+      },
+      "Social": {
+        "median": 11.18,
+        "iqr": 4.79,
+        "outliers": 2
+      }
+    },
+    "key_facts": {
+      "slowest_channel": "Email",
+      "fastest_channel": "Phone"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which channel has the highest median response time?",
+          "answer": "Email",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is the median response time for Chat? Answer in minutes.",
+          "answer": 5.99,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which channel shows the widest variability (largest IQR)?",
+          "answer": "Email",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "Approximately how many outliers does the Social channel have? Answer in exact count.",
+          "answer": 2,
+          "type": "numeric",
+          "tolerance": 2
+        },
+        {
+          "id": "q5",
+          "text": "Which channel has the most outliers? Answer channel name.",
+          "answer": "Social",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.0,
+      1.0,
+      2.0,
+      2.2,
+      3.52,
+      4.2,
+      4.79,
+      5.99,
+      7.17,
+      11.18,
+      12.98
+    ]
+  },
+  "chart_025": {
+    "chart_type": "dual_axis",
+    "category": "operations",
+    "difficulty": "very_hard",
+    "data_points": {
+      "W1": {
+        "demand": 5244.2,
+        "supply": 8122.3,
+        "gap": -2878.1
+      },
+      "W2": {
+        "demand": 5981.1,
+        "supply": 7451.0,
+        "gap": -1469.9
+      },
+      "W3": {
+        "demand": 5823.0,
+        "supply": 7353.6,
+        "gap": -1530.6
+      },
+      "W4": {
+        "demand": 5432.5,
+        "supply": 7461.4,
+        "gap": -2029.0
+      },
+      "W5": {
+        "demand": 5991.7,
+        "supply": 7114.9,
+        "gap": -1123.2
+      },
+      "W6": {
+        "demand": 5692.1,
+        "supply": 7296.4,
+        "gap": -1604.3
+      },
+      "W7": {
+        "demand": 5959.2,
+        "supply": 6534.0,
+        "gap": -574.8
+      },
+      "W8": {
+        "demand": 6156.8,
+        "supply": 6492.2,
+        "gap": -335.4
+      },
+      "W9": {
+        "demand": 6898.4,
+        "supply": 6313.8,
+        "gap": 584.6
+      },
+      "W10": {
+        "demand": 7203.8,
+        "supply": 6247.8,
+        "gap": 956.0
+      },
+      "W11": {
+        "demand": 7302.2,
+        "supply": 6341.9,
+        "gap": 960.3
+      },
+      "W12": {
+        "demand": 7195.4,
+        "supply": 5991.6,
+        "gap": 1203.7
+      },
+      "W13": {
+        "demand": 7282.2,
+        "supply": 5837.4,
+        "gap": 1444.8
+      },
+      "W14": {
+        "demand": 7466.1,
+        "supply": 5289.8,
+        "gap": 2176.3
+      },
+      "W15": {
+        "demand": 7717.9,
+        "supply": 5729.3,
+        "gap": 1988.6
+      },
+      "W16": {
+        "demand": 7559.1,
+        "supply": 4942.2,
+        "gap": 2616.9
+      }
+    },
+    "key_facts": {
+      "max_gap_week": "W1",
+      "final_gap": 2616.9
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What was the demand in Week 1? Answer in exact units.",
+          "answer": 5244.2,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "What was the supply in Week 16? Answer in exact units.",
+          "answer": 4942.2,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "In which week is the absolute gap between supply and demand largest?",
+          "answer": "W1",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "Describe the overall relationship between supply and demand.",
+          "answer": "inverse",
+          "type": "trend",
+          "keywords": [
+            "inverse",
+            "opposite",
+            "negative",
+            "supply down",
+            "demand up",
+            "diverging",
+            "cross"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "In which week do Supply and Demand lines cross?",
+          "answer": "W9",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      -2878.1209622667466,
+      -2028.986379703534,
+      -1604.2834532916822,
+      -1530.6013723545748,
+      -1469.9397909850995,
+      -1123.2184031222414,
+      -574.7532771087172,
+      -335.35198913723434,
+      5.2442,
+      5.4325,
+      5.6921,
+      5.823,
+      5.9592,
+      5.9811000000000005,
+      5.9917,
+      6.1568000000000005,
+      6.8984,
+      7.195399999999999,
+      7.2038,
+      7.2822,
+      7.3022,
+      7.4661,
+      7.5591,
+      7.717899999999999,
+      584.5866764801367,
+      956.0374742768099,
+      960.3104096542875,
+      1203.7304568488426,
+      1444.768330675649,
+      1988.600037372319,
+      2176.279011057257,
+      2616.938670438063,
+      4942.20032856367,
+      5244.2,
+      5289.843399765072,
+      5432.5,
+      5692.1,
+      5729.315395713595,
+      5823.0,
+      5837.382177673206,
+      5959.2,
+      5981.1,
+      5991.619804498655,
+      5991.7,
+      6156.8,
+      6247.78735566686,
+      6313.835156666503,
+      6341.905612482573,
+      6492.197266468884,
+      6533.971809919475,
+      6898.4,
+      7114.9325500812465,
+      7195.4,
+      7203.8,
+      7282.2,
+      7296.4282817830535,
+      7302.2,
+      7353.617919951342,
+      7451.044988894281,
+      7461.448680458573,
+      7466.1,
+      7559.1,
+      7717.9,
+      8122.333642536462
+    ]
+  },
+  "chart_026": {
+    "chart_type": "anomaly_line",
+    "category": "quality",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Day 1": {
+        "baseline": 210.0,
+        "observed": 210.0,
+        "delta": 0.0
+      },
+      "Day 2": {
+        "baseline": 211.7,
+        "observed": 211.7,
+        "delta": 0.0
+      },
+      "Day 3": {
+        "baseline": 213.4,
+        "observed": 213.4,
+        "delta": 0.0
+      },
+      "Day 4": {
+        "baseline": 215.2,
+        "observed": 215.2,
+        "delta": 0.0
+      },
+      "Day 5": {
+        "baseline": 216.9,
+        "observed": 216.9,
+        "delta": 0.0
+      },
+      "Day 6": {
+        "baseline": 218.6,
+        "observed": 278.6,
+        "delta": 60.0
+      },
+      "Day 7": {
+        "baseline": 220.3,
+        "observed": 220.3,
+        "delta": 0.0
+      },
+      "Day 8": {
+        "baseline": 222.1,
+        "observed": 222.1,
+        "delta": 0.0
+      },
+      "Day 9": {
+        "baseline": 223.8,
+        "observed": 223.8,
+        "delta": 0.0
+      },
+      "Day 10": {
+        "baseline": 225.5,
+        "observed": 225.5,
+        "delta": 0.0
+      },
+      "Day 11": {
+        "baseline": 227.2,
+        "observed": 227.2,
+        "delta": 0.0
+      },
+      "Day 12": {
+        "baseline": 229.0,
+        "observed": 229.0,
+        "delta": 0.0
+      },
+      "Day 13": {
+        "baseline": 230.7,
+        "observed": 230.7,
+        "delta": 0.0
+      },
+      "Day 14": {
+        "baseline": 232.4,
+        "observed": 232.4,
+        "delta": 0.0
+      },
+      "Day 15": {
+        "baseline": 234.1,
+        "observed": 179.1,
+        "delta": -55.0
+      },
+      "Day 16": {
+        "baseline": 235.9,
+        "observed": 235.9,
+        "delta": 0.0
+      },
+      "Day 17": {
+        "baseline": 237.6,
+        "observed": 237.6,
+        "delta": 0.0
+      },
+      "Day 18": {
+        "baseline": 239.3,
+        "observed": 239.3,
+        "delta": 0.0
+      },
+      "Day 19": {
+        "baseline": 241.0,
+        "observed": 241.0,
+        "delta": 0.0
+      },
+      "Day 20": {
+        "baseline": 242.8,
+        "observed": 242.8,
+        "delta": 0.0
+      },
+      "Day 21": {
+        "baseline": 244.5,
+        "observed": 244.5,
+        "delta": 0.0
+      },
+      "Day 22": {
+        "baseline": 246.2,
+        "observed": 246.2,
+        "delta": 0.0
+      },
+      "Day 23": {
+        "baseline": 247.9,
+        "observed": 327.9,
+        "delta": 80.0
+      },
+      "Day 24": {
+        "baseline": 249.7,
+        "observed": 249.7,
+        "delta": 0.0
+      },
+      "Day 25": {
+        "baseline": 251.4,
+        "observed": 251.4,
+        "delta": 0.0
+      },
+      "Day 26": {
+        "baseline": 253.1,
+        "observed": 253.1,
+        "delta": 0.0
+      },
+      "Day 27": {
+        "baseline": 254.8,
+        "observed": 254.8,
+        "delta": 0.0
+      },
+      "Day 28": {
+        "baseline": 256.6,
+        "observed": 256.6,
+        "delta": 0.0
+      },
+      "Day 29": {
+        "baseline": 258.3,
+        "observed": 258.3,
+        "delta": 0.0
+      },
+      "Day 30": {
+        "baseline": 260.0,
+        "observed": 260.0,
+        "delta": 0.0
+      }
+    },
+    "key_facts": {
+      "anomaly_days": [
+        "Day 6",
+        "Day 15",
+        "Day 23"
+      ]
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What was the observed throughput on Day 15? Answer in exact units.",
+          "answer": 179.1,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which days are flagged as anomalies?",
+          "answer": [
+            "Day 6",
+            "Day 15",
+            "Day 23"
+          ],
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "How much above baseline was the largest positive anomaly? Answer in exact units.",
+          "answer": 80.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Describe the general throughput trend excluding anomalies.",
+          "answer": "increasing",
+          "type": "trend",
+          "keywords": [
+            "increase",
+            "upward",
+            "growth"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Excluding anomalies, what is the overall trend?",
+          "answer": "increasing",
+          "type": "trend",
+          "keywords": [
+            "increase",
+            "upward",
+            "growth"
+          ]
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      -55.0,
+      0.0,
+      60.0,
+      80.0,
+      179.1,
+      210.0,
+      211.7,
+      211.72413793103448,
+      213.4,
+      213.44827586206895,
+      215.17241379310346,
+      215.2,
+      216.89655172413794,
+      216.9,
+      218.6206896551724,
+      220.3,
+      220.3448275862069,
+      222.06896551724137,
+      222.1,
+      223.79310344827587,
+      223.8,
+      225.5,
+      225.51724137931035,
+      227.2,
+      227.24137931034483,
+      228.9655172413793,
+      229.0,
+      230.68965517241378,
+      230.7,
+      232.4,
+      232.41379310344828,
+      234.13793103448276,
+      235.86206896551724,
+      235.9,
+      237.58620689655172,
+      237.6,
+      239.3,
+      239.31034482758622,
+      241.0,
+      241.0344827586207,
+      242.75862068965517,
+      242.8,
+      244.48275862068965,
+      244.5,
+      246.2,
+      246.20689655172413,
+      247.9310344827586,
+      249.6551724137931,
+      249.7,
+      251.3793103448276,
+      251.4,
+      253.1,
+      253.10344827586206,
+      254.8,
+      254.82758620689654,
+      256.55172413793105,
+      256.6,
+      258.2758620689655,
+      258.3,
+      260.0,
+      278.6,
+      327.9
+    ]
+  },
+  "chart_027": {
+    "chart_type": "histogram_combo",
+    "category": "incident",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Critical": {
+        "count": 12,
+        "avg_time": 5.5
+      },
+      "High": {
+        "count": 36,
+        "avg_time": 3.2
+      },
+      "Medium": {
+        "count": 78,
+        "avg_time": 1.4
+      },
+      "Low": {
+        "count": 142,
+        "avg_time": 0.6
+      }
+    },
+    "key_facts": {
+      "most_common_severity": "Low",
+      "slowest_resolution": "Critical"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "How many Medium severity incidents occurred? Answer in exact count.",
+          "answer": 78,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which severity has the longest average resolution time?",
+          "answer": "Critical",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What percent of total incidents were Low severity? Answer in percent.",
+          "answer": 53.0,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Describe the relationship between severity and average resolution time.",
+          "answer": "inverse",
+          "type": "trend",
+          "keywords": [
+            "inverse",
+            "higher severity",
+            "faster",
+            "priority"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "What percent of all incidents are High plus Critical? Answer in percent.",
+          "answer": 17.9,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.6,
+      1.4,
+      3.2,
+      5.5,
+      12.0,
+      36.0,
+      78.0,
+      142.0
+    ]
+  },
+  "chart_028": {
+    "chart_type": "stacked_area",
+    "category": "portfolio",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Platform": {
+        "Q1": 52,
+        "Q2": 58,
+        "Q3": 63,
+        "Q4": 71
+      },
+      "Services": {
+        "Q1": 18,
+        "Q2": 21,
+        "Q3": 24,
+        "Q4": 28
+      },
+      "Hardware": {
+        "Q1": 12,
+        "Q2": 10,
+        "Q3": 9,
+        "Q4": 7
+      },
+      "Partner": {
+        "Q1": 8,
+        "Q2": 11,
+        "Q3": 13,
+        "Q4": 14
+      }
+    },
+    "key_facts": {
+      "highest_quarter_total": 120,
+      "declining_segment": "Hardware"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "What is the Platform revenue in Q4? Answer in millions.",
+          "answer": 71,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q2",
+          "text": "Which segment shows a downward trend across the year?",
+          "answer": "Hardware",
+          "type": "categorical"
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "What is the total revenue in Q4? Answer in millions.",
+          "answer": 120,
+          "type": "numeric",
+          "tolerance": 3
+        },
+        {
+          "id": "q4",
+          "text": "Describe the overall portfolio mix shift during the year.",
+          "answer": "shifting to platform and services",
+          "type": "trend",
+          "keywords": [
+            "platform",
+            "services",
+            "increasing",
+            "mix"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "What percent of total in Q4 is Services? Answer in percent.",
+          "answer": 23.3,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      18.0,
+      21.0,
+      24.0,
+      28.0,
+      52.0,
+      58.0,
+      63.0,
+      71.0,
+      90.0,
+      100.0,
+      109.0,
+      120.0
+    ]
+  },
+  "chart_029": {
+    "chart_type": "gantt",
+    "category": "okr",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Acquire Users": {
+        "start": 0,
+        "duration": 40,
+        "progress": 0.8
+      },
+      "Improve NPS": {
+        "start": 15,
+        "duration": 35,
+        "progress": 0.55
+      },
+      "Automate Ops": {
+        "start": 30,
+        "duration": 50,
+        "progress": 0.4
+      },
+      "Launch Feature X": {
+        "start": 45,
+        "duration": 28,
+        "progress": 0.65
+      }
+    },
+    "key_facts": {
+      "total_horizon": 80,
+      "most_advanced_objective": "Acquire Users"
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which objective has progressed the furthest?",
+          "answer": "Acquire Users",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is the total timeline horizon in days? Answer in days.",
+          "answer": 80,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which objective is the least complete?",
+          "answer": "Automate Ops",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "Describe the overall progress distribution across objectives.",
+          "answer": "uneven",
+          "type": "trend",
+          "keywords": [
+            "uneven",
+            "varied",
+            "imbalanced",
+            "mixed",
+            "different",
+            "varies",
+            "ranging",
+            "spread"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Which objective has the highest velocity (progress per day)?",
+          "answer": "Launch Feature X",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      0.0,
+      15.0,
+      28.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.00000000000001,
+      65.0,
+      80.0
+    ]
+  },
+  "chart_030": {
+    "chart_type": "radar",
+    "category": "competitive",
+    "difficulty": "very_hard",
+    "data_points": {
+      "Comp A": {
+        "Brand": 8.2,
+        "Coverage": 7.5,
+        "Innovation": 6.8,
+        "Reliability": 8.9,
+        "Support": 7.1,
+        "Pricing": 6.4
+      },
+      "Comp B": {
+        "Brand": 7.4,
+        "Coverage": 8.7,
+        "Innovation": 7.3,
+        "Reliability": 8.1,
+        "Support": 8.4,
+        "Pricing": 7.2
+      },
+      "Comp C": {
+        "Brand": 6.5,
+        "Coverage": 6.8,
+        "Innovation": 8.9,
+        "Reliability": 7.6,
+        "Support": 6.9,
+        "Pricing": 8.5
+      }
+    },
+    "key_facts": {
+      "best_overall": "Comp B",
+      "averages": {
+        "Comp A": 7.48,
+        "Comp B": 7.85,
+        "Comp C": 7.53
+      }
+    },
+    "questions": {
+      "tier1_factual": [
+        {
+          "id": "q1",
+          "text": "Which competitor has the highest overall average score?",
+          "answer": "Comp B",
+          "type": "categorical"
+        },
+        {
+          "id": "q2",
+          "text": "What is Comp B's score for Innovation? Answer in exact score.",
+          "answer": 7.3,
+          "type": "numeric",
+          "tolerance": 3
+        }
+      ],
+      "tier2_pattern": [
+        {
+          "id": "q3",
+          "text": "Which attribute shows the greatest spread across competitors?",
+          "answer": "Innovation",
+          "type": "categorical"
+        },
+        {
+          "id": "q4",
+          "text": "Describe the overall positioning of Comp C.",
+          "answer": "innovation leader",
+          "type": "trend",
+          "keywords": [
+            "innovation",
+            "leader",
+            "strong",
+            "high"
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Which attribute has the widest spread across competitors?",
+          "answer": "Innovation",
+          "type": "categorical"
+        }
+      ]
+    },
+    "all_valid_numbers": [
+      6.4,
+      6.5,
+      6.8,
+      6.9,
+      7.1,
+      7.2,
+      7.3,
+      7.4,
+      7.48,
+      7.5,
+      7.53,
+      7.6,
+      7.85,
+      8.1,
+      8.2,
+      8.4,
+      8.5,
+      8.7,
+      8.9
+    ]
+  }
+}
