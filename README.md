@@ -171,7 +171,7 @@ graph LR
 - **Comprehensive Scoring**: Handled edge cases like negative numbers, multiple units, percentage distributions
 
 ### Challenges Encountered
-- **AWS Bedrock Setup**: Initial configuration for Claude API access required understanding IAM roles and region availability
+- **Amazon Bedrock Setup**: Initial configuration for Claude API access required understanding IAM roles and region availability
 - **Google Cloud Vertex AI**: Gemini setup involved service account permissions and project configuration
 - **API Consistency**: Each provider (AWS, OpenAI, Google) has different authentication and request formats
 - **Edge Case Answers**: Models sometimes answer in exact numbers (e.g., 120,000) when chart is measured in thousands (answer should be 120)
@@ -197,7 +197,7 @@ graph LR
 - **Streamlit**: Interactive dashboard
 - **Plotly**: Dashboard visualizations
 - **boto3**: AWS S3 integration
-- **OpenAI, AWS Bedrock (Claude), Google Cloud**: Model APIs
+- **OpenAI, Amazon Bedrock (Claude), Google Cloud**: Model APIs
 
 ## Common Issues
 
