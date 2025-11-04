@@ -4,14 +4,14 @@ A comprehensive evaluation framework for testing model performance on business c
 
 ## Overview
 
-This project evaluates three leading multimodal models (Claude Sonnet 4.5, GPT-5, and Gemini 2.5 Pro) on their ability to interpret business charts. The system generates **30 diverse business charts** across varying difficulty levels with ground truth answers, runs automated evaluations, and provides detailed analytics through an interactive Streamlit dashboard.
+This project evaluates three leading multimodal models (Claude Sonnet 4.5, GPT-5, and Gemini 2.5 Pro) on their ability to interpret business charts. The system generates 30 diverse business charts across varying difficulty levels with ground truth answers, runs automated evaluations, and provides detailed analytics through an interactive Streamlit dashboard.
 
 ## Features
 
 - **Chart Generation**: Creates 30 diverse business charts with realistic data
   - Progressive difficulty from basic to very hard
   - 150 total questions (5 per chart) testing vision and reasoning capabilities
-- **Multi-Model Evaluation**: Tests Claude, GPT-5, and Gemini with identical prompts
+- **Multi-Model Evaluation**: Tests Claude, GPT, and Gemini with identical prompts
 - **Intelligent Scoring**: 
   - Numeric answers with configurable tolerance (default 3%)
   - Categorical matching with keyword detection
