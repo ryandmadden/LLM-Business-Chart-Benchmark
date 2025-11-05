@@ -109,9 +109,9 @@ With the updated 30-chart benchmark (150 questions):
 
 | Model | Overall Accuracy |
 |-------|-----------------|
-| **Claude Sonnet 4.5** | 89.3% |
-| **GPT-5** | 87.3% |
-| **Gemini 2.5 Pro** | 75.3% |
+| **Claude Sonnet 4.5** | 89% |
+| **GPT-5** | 87% |
+| **Gemini 2.5 Pro** | 75% |
 
 The benchmark successfully differentiates model performance with:
 - 3% tolerance on numeric answers
